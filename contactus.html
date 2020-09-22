@@ -134,8 +134,124 @@
         <div class="col-12">
           <h3>Send us your Feedback</h3>
         </div>
-        <div class="col-12 col-md-9">Form goes here</div>
-        <div class="col-12 col-md"></div>
+        <div class="col-12 col-md-9">
+          <form>
+            <!-- firstname -->
+            <div class="form-group row">
+              <label for="firstname" class="col-md-2 col-form-label"
+                >First Name</label
+              >
+              <div class="col-md-10">
+                <input
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                  placeholder="First Name"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <!-- lastname -->
+            <div class="form-group row">
+              <label for="lastname" class="col-md-2 col-form-label"
+                >Last Name</label
+              >
+              <div class="col-md-10">
+                <input
+                  type="text"
+                  id="lastname"
+                  name="lastname"
+                  placeholder="Last Name"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <!-- telephone -->
+            <div class="form-group row">
+              <label for="telephone" class="col-12 col-md-2 col-form-label"
+                >Telephone No.</label
+              >
+              <div class="col-5 col-md-3">
+                <input
+                  type="tel"
+                  id="countrycode"
+                  name="countrycode"
+                  placeholder="Country Code"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-7 col-md-7">
+                <input
+                  type="tel"
+                  id="telephone"
+                  name="telephone"
+                  placeholder="Telephone Number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <!-- email -->
+            <div class="form-group row">
+              <label for="email" class="col-md-2 col-form-label">Email</label>
+              <div class="col-md-10">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <!-- checkbox & select -->
+            <div class="form-group row">
+              <div class="col-md-6 offset-md-2">
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    name="approve"
+                    id="approve"
+                    value=""
+                    class="form-check-input"
+                  />
+                  <label for="approve" class="form-check-label"
+                    ><strong>May we contact you?</strong></label
+                  >
+                </div>
+              </div>
+              <div class="col-md-3 offset-md-1">
+                <select class="form-control">
+                  <option>----Select----</option>
+                  <option>Tel.</option>
+                  <option>Email</option>
+                </select>
+              </div>
+            </div>
+            <!-- Feedback -->
+            <div class="form-group row">
+              <label for="feedback" class="col-md-2 col-form-label"
+                >Your Feedback</label
+              >
+              <div class="col-md-10">
+                <textarea
+                  rows="12"
+                  id="feedback"
+                  name="feedback"
+                  placeholder="Your Feedback"
+                  class="form-control"
+                ></textarea>
+              </div>
+            </div>
+            <!-- submit button  -->
+            <div class="form-group row">
+              <div class="offset-md-2 col-md-10">
+                <button class="btn btn-primary" type="submit">
+                  Send Your Feedback
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
