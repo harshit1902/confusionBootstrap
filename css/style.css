@@ -59,3 +59,9 @@ body {
   top: 0;
   left: 0;
 }
+
+#carouselButton {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
