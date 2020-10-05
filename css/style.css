@@ -2,41 +2,49 @@
   margin: 0px auto;
   padding: 0px 0px;
 }
+
 .row-content {
   border-bottom: 1px ridge;
   min-height: 400px;
   margin: 0px auto;
   padding: 50px 0px;
 }
+
 .footer {
   background-color: #d1c4e9;
   margin: 0px auto;
   padding: 20px 0px;
 }
+
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
   background-color: #9575cd;
   color: floralwhite;
 }
+
 address {
   font-size: 80%;
   margin: 0px;
   color: #0f0f0f;
 }
+
 body {
   padding-top: 50px;
   z-index: 0;
 }
+
 .navbar-dark {
   background-color: #512da8;
 }
+
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px;
 }
+
 .carousel {
   background: #512da8;
 }
@@ -49,8 +57,10 @@ body {
   top: 0;
   left: 0;
 }
+
 #carouselButton {
   position: absolute;
   right: 0px;
   bottom: 0px;
+  z-index: 1;
 }
