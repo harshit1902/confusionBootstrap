@@ -64,9 +64,9 @@
           </li>
         </ul>
         <span class="navbar-text">
-          <a data-toggle="modal" data-target="#loginModal">
+          <button id="loginButton" class="btn text-white">
             <span class="fa fa-sign-in"></span> Login
-          </a>
+          </button>
         </span>
       </div>
     </nav>
@@ -76,8 +76,8 @@
       <div class="modal-dialog modal-lg" role="content">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title">Reserve Table</h4>
-            <button class="close" data-dismiss="modal" type="button">
+            <h4 class="modal-title text-white" >Reserve Table</h4>
+            <button class="close text-white" data-dismiss="modal" type="button">
               &times;
             </button>
           </div>
@@ -179,8 +179,8 @@
       <div class="modal-dialog modal-lg" role="content">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title">LogIn</h4>
-            <button class="close" data-dismiss="modal" type="button">
+            <h4 class="modal-title text-white" >LogIn</h4>
+            <button class="close text-white" type="button" id="loginClose" >
               &times;
             </button>
           </div>
@@ -245,9 +245,7 @@
             <img src="./img/logo.png" alt="logo" class="img-fluid" />
           </div>
           <div class="col-12 col-sm-3 align-self-center">
-            <a data-toggle="modal" data-target="#reservationModal">
-              <button class="btn btn-warning">Reserve Table</button>
-            </a>
+              <button class="btn btn-warning" id="reserveButton">Reserve Table</button>
           </div>
         </div>
       </div>
